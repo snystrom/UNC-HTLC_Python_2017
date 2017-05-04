@@ -1,0 +1,1 @@
+# intro to computers, download anaconda, spyder, mention github page for notes
