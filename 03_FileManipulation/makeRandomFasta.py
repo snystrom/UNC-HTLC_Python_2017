@@ -28,5 +28,5 @@ def randFasta(nSeq = 0, minLen = 10, maxLen = 100):
 myDNA = randFasta(nSeq = 100, minLen = 50, maxLen = 250)
 
 with open('myDNA.fa', 'w') as fasta:
-    for line in myDNA:
-        fasta.write(line)
+    for entry in myDNA:
+        fasta.write(entry)
