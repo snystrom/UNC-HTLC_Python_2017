@@ -1,4 +1,4 @@
-#UNC-HTLC_Python_2017
+# UNC-HTLC_Python_2017
 # Spencer Nystrom & Mike Lafferty
 Course notes for UNC 'How to Learn to Code' Python3 small group during Summer 2017. 
 
