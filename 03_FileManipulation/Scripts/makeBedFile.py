@@ -7,7 +7,7 @@ random.seed(123)
 chrNames = ['chrX', 'chr2L', 'chr2R', 'chr3R', 'chr3L']
 chrStart = 1
 chrEnd = 120000000
-behavior = ['increasing', 'decreasing', 'static']
+behavior = ['opening', 'closing', 'static']
 pBehavior_unbound = [0.2, 0.2, 0.6]
 pBehavior_bound = [0.8, 0.1, 0.1]
 binding = ['bound', 'unbound']
