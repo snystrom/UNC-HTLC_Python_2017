@@ -11,7 +11,7 @@ def randFasta(nSeq = 0, minLen = 10, maxLen = 100):
     for i in range(1, nSeq+1):
         
         seqLen = random.randint(minLen, maxLen)
-        randSequence = [random.choice(bases) for _ in range(1, seqLen)] # Generate random DNA sequence of random length
+        randSequence = [random.choice(bases) for _ in range(0, seqLen)] # Generate random DNA sequence of random length
         seqString = ''.join(randSequence) # Combine sequence into a string
         header = '>Seq_{0}'.format(i)     # Generate unique header for each sequence
         
@@ -24,9 +24,15 @@ def randFasta(nSeq = 0, minLen = 10, maxLen = 100):
         output.append(entry)
         
     return(output)
-   
-myDNA = randFasta(nSeq = 100, minLen = 50, maxLen = 250)
 
-with open('myDNA.fa', 'w') as fasta:
-    for entry in myDNA:
-        fasta.write(entry)
+def writeArrayToFile(array, fileName):
+    with open(fileName, 'w') as outfile:
+        for entry in array:
+            outfile.write(entry)
+
+
+myDNA = randFasta(nSeq = 100, minLen = 50, maxLen = 250)
+writeArrayToFile(myDNA, 'myDNA.fa')
+
+PWMset = randFasta(nSeq = 100, minLen = 10, maxLen = 10)
+writeArrayToFile(PWMset, 'PWM.fa')
