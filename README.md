@@ -11,7 +11,9 @@ Course notes for UNC 'How to Learn to Code' Python3 small group during Summer 20
  - Use jupyter notebooks for teaching notes
  	- Ask jessime/figure out how to run them dynamically from github
 
-
+# Things from class:
+ - Get sample datasets from students based on something they'd use Excel to analyze.
+ - Raw output from equipment?
 
 # Things to plan:
 - Ideas for final project
