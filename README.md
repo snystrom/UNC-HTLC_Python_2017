@@ -2,6 +2,10 @@
 # Spencer Nystrom & Mike Lafferty
 Course notes for UNC 'How to Learn to Code' Python3 small group during Summer 2017. 
 
+
+# Viewing Notebooks:
+[Click Here](http://nbviewer.jupyter.org/github/snystrom/UNC-HTLC_Python_2017/tree/master/)
+
 # Miniconda
  - install:
 	- Spyder3
