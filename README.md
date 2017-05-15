@@ -11,6 +11,7 @@ Course notes for UNC 'How to Learn to Code' Python3 small group during Summer 20
 	- Spyder3
 	- numpy 
 	- pandas 
+	- seaborn
 
  - Use jupyter notebooks for teaching notes
  	- Ask jessime/figure out how to run them dynamically from github
