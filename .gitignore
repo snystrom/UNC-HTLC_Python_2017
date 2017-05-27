@@ -1,1 +1,3 @@
-**/.ipynb_checkpoints
+./01_DataStructures/.ipynb_checkpoints/*
+./03_FileManipulation/.ipynb_checkpoints/*
+./04_DataFrames/.ipynb_checkpoints/*

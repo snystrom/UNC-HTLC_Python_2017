@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 
     # PWM to generate sequences from:
-    # Each array is probability of occurrance of each basepair at a given position
+    # Each array is probability of occurrance of each basepair at a given position (Position-specific scoring matrix [PSSM])
     #         'A', 'T', 'G', 'C'
     pBase1 = [0.8, 0.2, 0, 0]
     pBase2 = [0.1, 0.1, 0.7, 0.1]
