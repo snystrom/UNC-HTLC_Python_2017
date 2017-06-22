@@ -60,11 +60,16 @@ def writeArrayToFile(array, fileName):
 if __name__ == "__main__":
 
     random.seed(123) # Set seed for reproducibility.
-
-    # Generate random fasta file
+    np.random.seed(123)
+    
+    # Generate short random fasta file
+    shortFa = randFasta(nSeq = 10, minLen = 25, maxLen = 25)
+    writeArrayToFile(shortFa, '../Data/shortReads.fa')
+    
+    # Generate long random fasta file
     myDNA = randFasta(nSeq = 100, minLen = 50, maxLen = 250)
     writeArrayToFile(myDNA, '../Data/myDNA.fa')
-
+    
 
     # PWM to generate sequences from:
     # Each array is probability of occurrance of each basepair at a given position (Position-specific scoring matrix [PSSM])
