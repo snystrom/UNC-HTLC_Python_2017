@@ -1,0 +1,12 @@
+
+A function that reads a file, determines if it is fasta or bed (fastq, sam, others?) checks file for errors
+
+A function that extracts sequences and descriptions that match an input sequence (also look with 1 mismatch?)
+
+A function that writes a bed file given two fasta files (sequences and a genome)
+
+The main driver function that prints a UI, takes user input, and calls the needed functions
+
+A message printing function that takes a string and prints a formatted message. Uses default and optional parameters for things like message width, filler character, justification ect.
+
+Function that takes a fasta file and plots distributions (GC content, sequence length, ect)
