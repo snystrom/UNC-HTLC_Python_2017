@@ -60,6 +60,7 @@ def writeArrayToFile(array, fileName):
 if __name__ == "__main__":
 
     random.seed(123) # Set seed for reproducibility.
+    np.random.seed(123)
     
     # Generate short random fasta file
     shortFa = randFasta(nSeq = 10, minLen = 25, maxLen = 25)

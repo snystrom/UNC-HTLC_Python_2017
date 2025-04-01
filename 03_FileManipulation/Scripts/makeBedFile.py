@@ -3,6 +3,7 @@ import random
 import numpy as np
 
 random.seed(123)
+np.random.seed(123)
 
 chrNames = ['chrX', 'chr2L', 'chr2R', 'chr3R', 'chr3L']
 chrStart = 1
